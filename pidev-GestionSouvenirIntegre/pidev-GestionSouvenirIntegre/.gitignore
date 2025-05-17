@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+pidev-GestionSouvenirIntegre/pidev-GestionSouvenirIntegre/src/main/resources/application.properties
+pidev-GestionSouvenirIntegre/pidev-GestionSouvenirIntegre/docker-compose.yml
+pidev-GestionSouvenirIntegre/pidev-GestionSouvenirIntegre/src/main/java/com/example/pidev/config/TwilioConfig.java
