@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'master' // ou 'built-in' selon la version de Jenkins
+        label 'built-in' // ou 'built-in' selon la version de Jenkins
     }
     // --ou--
     // agent {
