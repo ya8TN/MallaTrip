@@ -9,7 +9,7 @@ pipeline {
     // }
 
     tools {
-        maven 'M2_HOME'
+        maven 'MAVEN_HOME'
     }
 
     options {
