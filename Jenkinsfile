@@ -14,7 +14,7 @@ pipeline {
 
     options {
         // Timeout counter starts after agent is allocated
-        timeout(time: 3, unit: 'SECONDS')
+        timeout(time: 30, unit: 'SECONDS')
     }
 
     environment {
