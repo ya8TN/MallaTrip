@@ -1,6 +1,7 @@
 pipeline {
-    agent any
-
+    agent {
+        label 'master' // ou 'built-in' selon la version de Jenkins
+    }
     // --ou--
     // agent {
     //     node {
@@ -32,7 +33,7 @@ pipeline {
 
         stage('Code Build') {
             steps {
-                bat 'mvn install -Dmaven.test.skip=true'
+                sh 'mvn install -Dmaven.test.skip=true'
             }
         }
     }
